@@ -19,3 +19,10 @@
 ## Execution
 
 ### Steps
+
+
+## Useful information
+
+flottbot https://target.github.io/flottbot-docs/basics/quick-start/
+
+dareCode https://darecode.com
