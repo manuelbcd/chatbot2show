@@ -6,7 +6,7 @@
 ### Steps
 
 1. Prepare min. ubuntu server >= 14.04
-2. goinstall.sh
+2. scripts/goinstall.sh
 
 ## Execution
 
