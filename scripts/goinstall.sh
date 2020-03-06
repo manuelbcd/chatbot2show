@@ -6,7 +6,7 @@ set -e
 VERSION="1.14"
 
 [ -z "$GOROOT" ] && GOROOT="$HOME/.go"
-[ -z "$GOPATH" ] && GOPATH="$home/go"
+[ -z "$GOPATH" ] && GOPATH="$HOME/go"
 
 OS="$(uname -s)"
 ARCH="$(uname -m)"
