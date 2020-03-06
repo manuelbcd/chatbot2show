@@ -8,11 +8,12 @@
 1. Prepare min. ubuntu server >= 14.04
 2. Install go lang
 ```
-sudo apt-get update
-sudo apt-get -y upgrade
-sudo curl -O https://storage.googleapis.com/golang/go1.6.linux-amd64.tar.gz
-sudo tar -xvf go1.6.linux-amd64.tar.gz
-sudo mv go /usr/local
+wget https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz
+sudo tar -C /usr/local -xvf go1.10.3.linux-amd64.tar.gz
+echo "export GOPATH=$HOME/go" >> ~/.bash_profile
+echo "export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin" >> ~/.bash_profile
+source ~/.bash_profile
+go version
 ```
 3. Set go paths
 
