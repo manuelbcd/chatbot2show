@@ -13,7 +13,11 @@ sudo tar -C /usr/local -xvf go1.10.3.linux-amd64.tar.gz
 echo "export GOPATH=$HOME/go" >> ~/.bash_profile
 echo "export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin" >> ~/.bash_profile
 source ~/.bash_profile
-go version
+mkdir ~/go/src
+cd ~/go/src
+git clone https://github.com/target/flottbot.git
+cd ~/go/src/flottbot/cmd/flottbot
+go get
 ```
 3. Set go paths
 
