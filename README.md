@@ -23,7 +23,13 @@ go get
 
 ## Execution
 
-### Steps
+### Quick start
+
+```
+docker run -it --rm --name mybot -v "$PWD"/config:/config target/flottbot:latest /bin/sh -c "./flottbot"
+```
+
+### Docker-compose
 ```
 docker-compose up -d
 ```
