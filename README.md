@@ -24,7 +24,9 @@ go get
 ## Execution
 
 ### Steps
-
+```
+docker-compose up -d
+```
 
 ## Useful information
 
