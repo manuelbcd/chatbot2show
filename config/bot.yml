@@ -1,0 +1,9 @@
+name: darebot
+cli: false
+chat_application: slack
+slack_token: xoxb-84303421619-988605846834-tKyLBh2wFz3fDx7233NwsbeQ
+slack_verification_token: eACbYbCYWUowAGf3sqaWpGJN
+slack_workspace_token: xoxp-84303421619-285325312224-988605842162-46e5c1c67baaf7e68ec955f342512625
+
+slack_events_callback_path: /slack_events/v1/events
+slack_interactions_callback_path: /slack_events/v1/interactions

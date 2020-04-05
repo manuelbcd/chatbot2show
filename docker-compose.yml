@@ -1,0 +1,8 @@
+version: '2.0'
+services:
+  bot:
+    image: target/flottbot:latest
+    entrypoint: >
+      /bin/sh -c "./flottbot"
+    volumes:
+    - $PWD/config:/config
