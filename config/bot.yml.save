@@ -1,8 +1,15 @@
 name: darebot
 cli: false
 chat_application: slack
-slack_token: xoxb-84303421619-988605846834-tKyLBh2wFz3fDx72dummy
-slack_verification_token: eACbYbCYWUowAGf3sqaDUMMY
-slack_workspace_token: xoxp-84303421619-285325312224-988605842162-46e5c1c67baaf7e68ec955f3425dummy
-slack_events_callback_path:
-slack_interactions_callback_path: 
+
+# OAuth & Permissions > Bot User OAuth Access Token
+slack_token: ${SLACK_TOKEN}
+       
+# App credentials > Verification Token
+slack_verification_token: ${SLACK_VERIFICATION_TOKEN}
+
+# OAuth & Permissions > OAuth Access Token
+slack_workspace_token: ${SLACK_WORKSPACE_TOKEN}
+
+slack_events_callback_path: /slack_events/v1/events
+slack_interactions_callback_path: /slack_events/v1/interactions

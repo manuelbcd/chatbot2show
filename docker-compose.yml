@@ -6,3 +6,9 @@ services:
       /bin/sh -c "./flottbot"
     volumes:
     - $PWD/config:/config
+    environment:
+        - SLACK_TOKEN
+        - SLACK_WORKSPACE_TOKEN
+        - SLACK_VERIFICATION_TOKEN
+    expose:
+        - "5004"
